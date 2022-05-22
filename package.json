@@ -1,31 +1,28 @@
 {
-  "name": "webpack-package",
+  "name": "calculator",
   "version": "0.1.0",
   "description": "",
-  "type": "module",
   "scripts": {
-    "test": "jest --colors"
+    "test": "NODE_OPTIONS=--experimental-vm-modules npx jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hexlet-boilerplates/webpack-package.git"
+    "url": "git+https://github.com/mltsk/calculator.git"
   },
-  "author": "Kirill Mokevnin",
+  "author": "Dmitrii Maletskii",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hexlet-boilerplates/webpack-package/issues"
-  },
-  "homepage": "https://github.com/hexlet-boilerplates/webpack-package#readme",
+  "homepage": "https://github.com/mltsk/calculator/blob/main/README.md",
   "jest": {
     "verbose": true,
     "testURL": "http://localhost/",
     "testEnvironment": "jsdom"
   },
-  "main": "src/init.js",
+  "main": "src/index.ts",
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/eslint-parser": "^7.15.4",
     "@babel/preset-env": "^7.15.4",
+    "@babel/preset-typescript": "^7.17.12",
     "babel-jest": "^27.1.1",
     "babel-loader": "^8.2.2",
     "css-loader": "^6.2.0",
@@ -42,10 +39,15 @@
     "postcss-loader": "^6.1.1",
     "postcss-preset-env": "^6.7.0",
     "style-loader": "^3.2.1",
+    "stylelint": "^14.8.3",
+    "stylelint-config-standard-scss": "^3.0.0",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.6.4",
     "url-loader": "^4.1.1",
     "webpack": "^5.52.0",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.1.1"
+    "webpack-dev-server": "^4.1.1",
+    "@types/jest": "^27.5.1"
   },
   "dependencies": {
     "npm-check-updates": "^11.8.5",
