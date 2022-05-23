@@ -23,11 +23,11 @@
 body {
   min-height: 100vh;
   margin: 0;
+  padding-top: 34px;
   color: #f2f2f2;
   font-family: Geometria, Roboto, Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
-  border-top: 1px solid transparent;
   background: rgb(255 161 161);
   background: linear-gradient(180deg, rgb(255 161 161 / 100%) 0%, rgb(255 123 123 / 100%) 100%);
 }
@@ -36,7 +36,6 @@ body {
   display: flex;
   width: fit-content;
   margin: 0 auto;
-  margin-top: 34px;
   background: #ffffff20;
   border-radius: 18px;
 
