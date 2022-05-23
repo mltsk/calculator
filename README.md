@@ -1,5 +1,6 @@
 # CALCULATOR
 
+### DEMO: https://mltsk.github.io/calculator/index.html
 ## Run
 
 ```sh
