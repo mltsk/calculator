@@ -1,7 +1,5 @@
 # CALCULATOR
 
-DEMO: https://mltsk.github.io/calculator/index.html
-
 ## Run
 
 ```sh
@@ -19,7 +17,7 @@ make test
 ```sh
 make lint
 ```
-## stylelint
+## Stylelint
 
 ```sh
 make stylelint
